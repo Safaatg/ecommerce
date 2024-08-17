@@ -1,0 +1,13 @@
+.list-group {
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    background-color: black;
+    width: 300px;
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+    
+}

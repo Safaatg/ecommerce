@@ -1,0 +1,153 @@
+.company-name {
+ color: var(--dark-grayish-blue);
+ text-transform: uppercase;
+ letter-spacing:2px;
+}
+.product-name{
+    font-size: 50px;
+}
+
+.price {
+    font-size: 30px;
+}
+.discount {
+    font-weight: bold;
+    color: var(--white);
+    margin-left: 6px;
+}
+.discount-bg {
+    padding: 8px;
+    background-color: var(--black);
+    width: 60px;
+    border-radius: 8px;
+}
+.description {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 70px;
+}
+.product-description p {
+    margin-top: 35px;
+    color: var(--dark-grayish-blue);
+}
+.original-price {
+    text-decoration: line-through;
+    color: var(--dark-grayish-blue);
+}
+.counter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.controls {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--light-grayish-blue);
+
+}
+.controls > button{
+    border: none;
+    background-color: var(--light-grayish-blue);
+    padding: 15px;
+    width: 80px;
+    border: 10px;
+    cursor: pointer;
+}
+.btn {
+    border: none;
+    width: 250px;
+    padding: 15px;
+    cursor: pointer;
+    background-color: var(--orange);
+    border-radius: 10px;
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.btn span {
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: var(--black); 
+    color: var(--orange); 
+}
+
+
+.cart-container {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .product-info {
+    flex: 1;
+  }
+  
+  .product-name {
+    color: #333;
+    font-size: 46px;
+    font-weight: 900;
+  }
+  
+  .product-price {
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .product-quantity {
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .clear-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  @media (max-width: 420px) {
+  
+    .counter {
+        flex-direction: column;
+    }
+
+  
+    #LogoMenu {
+        display: block;
+        margin-left: 10px;
+    }
+    .product-description {
+        margin-left: 20px;
+    }
+    .product-name {
+        color: #333;
+        font-size: 36px;
+        font-weight: 900;
+      }
+      .controls {
+        width: 350px;
+    }
+    .btn {
+        width: 350px;
+    }
+}

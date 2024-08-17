@@ -1,0 +1,34 @@
+.image {
+    width: 100%;
+    max-width: 500px; 
+    border-radius: 10px;
+}
+
+.parentImageSwitch {
+    display: flex;
+    padding: 0;
+    justify-content: space-around; 
+}
+
+.imageSwitch {
+    width: 110px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.imageSwitch:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 420px) {
+   
+    .imageSwitch {
+        width: 20%; 
+        height: auto; 
+    }
+
+    .parentImageSwitch {
+        padding: 0 10px;
+    }
+}

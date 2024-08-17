@@ -1,0 +1,21 @@
+.Product {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    gap: 100px;
+}
+
+@media (max-width: 750px) {
+    /* Styles for screens narrower than 858px */
+    .Product
+    {
+        flex-direction: column;
+        align-items: center;
+        margin-inline: 0;
+        gap: 5px;
+    }
+    
+    #LogoMenu {
+        display: block; /
+    }
+}
